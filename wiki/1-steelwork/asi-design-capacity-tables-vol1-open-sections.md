@@ -1,5 +1,5 @@
 ---
-title: AISC/ASI Design Capacity Tables for Structural Steel — Volume 1: Open Sections (source register)
+title: "AISC/ASI Design Capacity Tables for Structural Steel — Volume 1: Open Sections (source register)"
 category: 1-steelwork
 tags: [source-register, design-aid, section-properties, capacity-tables, open-sections, AS4100-1998]
 standards: [AS 4100:1998]

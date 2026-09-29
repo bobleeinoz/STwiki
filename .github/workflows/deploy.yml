@@ -1,0 +1,71 @@
+name: Deploy wiki to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # full history for git-based last-modified dates
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Cache dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('site/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Cache Quartz plugins
+        uses: actions/cache@v5
+        with:
+          path: site/.quartz/plugins
+          key: ${{ runner.os }}-plugins-${{ hashFiles('site/quartz.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-plugins-
+      - name: Install dependencies
+        working-directory: site
+        run: npm ci
+      - name: Sync wiki content into Quartz
+        # wiki/ is the single source of truth; site/content is generated
+        # fresh on every build so there is no duplicated copy in git.
+        run: |
+          rm -rf site/content
+          mkdir -p site/content
+          cp -r wiki/. site/content/
+      - name: Install Quartz plugins
+        working-directory: site
+        run: npx quartz plugin install
+      - name: Build Quartz
+        working-directory: site
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

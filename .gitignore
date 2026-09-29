@@ -1,3 +1,14 @@
 # Immutable human-owned raw sources (copyrighted standards, catalogues, project files)
 # per CLAUDE.md Sec 1 — never edited, never published. Local-only.
 raw/
+
+# Quartz static-site build (site/) — generated build artifacts, not source
+site/node_modules/
+site/public/
+site/.quartz/
+# NOTE: site/content/ is intentionally NOT ignored here — Quartz's file
+# crawler respects .gitignore when walking content, so ignoring this path
+# makes the build silently process zero files. It is still never committed:
+# nothing ever runs `git add site/content`, and the deploy workflow
+# regenerates it fresh (rm -rf + copy from wiki/) inside an ephemeral CI
+# checkout that never pushes back to the repo.
