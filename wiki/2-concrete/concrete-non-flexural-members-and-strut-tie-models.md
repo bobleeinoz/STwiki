@@ -42,7 +42,12 @@ clause, Cl 12.7 — see [[concrete-d-region-crack-control]].
 ### Strut-and-tie model types for deep beams (Cl 12.2.1)
 
 `[code]` Three model types, distinguished by how load reaches the supports
-(Fig 12.2.1 — **not reproduced**; described here in words):
+(Fig 12.2.1, reproduced below and also described in words):
+
+![[as3600-fig-12.2.1-strut-tie-model-types.png]]
+*Figure 12.2.1 — strut-and-tie model types for deep beams: Type I (major
+struts only), Type II (major + minor struts, hanger reinforcement) and
+Type III (minor struts only, hanger reinforcement) (AS 3600:2018).*
 
 - **Type I** — load carried directly to supports by major (primary) struts
   only. The simplest, most direct load path.
@@ -86,4 +91,4 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clauses 12.1, 12.2 (Figure
-  12.2.1 not reproduced — described in words above).
+  12.2.1 reproduced as an image asset above).

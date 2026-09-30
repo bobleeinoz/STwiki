@@ -57,6 +57,14 @@ bending-plane cross-section dimension or the distance to the member end
 range, the region instead extends from each member end by the larger of a
 moment-ratio-based length or 1.2× the larger cross-sectional dimension).
 
+![[as3600-fig-10.7.3.1a-confinement-to-the-core.png]]
+*Figure 10.7.3.1(A) — confinement to the core, effective confining pressure
+concept (AS 3600:2018).*
+
+![[as3600-fig-10.7.3.1b-special-confinement-regions.png]]
+*Figure 10.7.3.1(B) — extent of special confinement regions along a column
+(AS 3600:2018).*
+
 `[code]` Confining pressure calculation routes: **rational calculation**
 (10.7.3.2, triaxial-stress-based, fitment-effectiveness-based — no
 prescribed formula); **simplified calculation** (10.7.3.3), building an
@@ -73,6 +81,10 @@ where `ρs` is the fitment volume fraction of the core). **Deemed-to-conform**
 circular sections) that guarantees the `0.01·f'c` target without an explicit
 pressure calculation.
 
+![[as3600-fig-10.7.3.3-calculation-of-confining-pressures.png]]
+*Figure 10.7.3.3 — calculation of confining pressures `fr`/`fr.eff` from
+fitment leg area, spacing and core dimensions (AS 3600:2018).*
+
 ### Restraint of longitudinal reinforcement (Cl 10.7.4)
 
 `[code]` Bars requiring lateral restraint (10.7.4.1): every corner bar
@@ -86,6 +98,10 @@ conditions (opposite end has a 135° hook, alternating end-types on adjacent
 fitments in plan and along the bar, `N* ≤ 0.3·Ag·f'c`, `f'c ≤ 65 MPa`); or,
 for circular fitments/helices, simply having the bars equally spaced around
 the circumference.
+
+![[as3600-fig-10.7.4.2-lateral-restraint-to-longitudinal-bars.png]]
+*Figure 10.7.4.2 — deemed-restrained configurations for lateral restraint of
+longitudinal bars by fitment bends/hooks (AS 3600:2018).*
 
 `[code]` **Fitment/helix diameter and spacing** (10.7.4.3): minimum bar
 diameter from Table 10.7.4.3 — banded by longitudinal bar

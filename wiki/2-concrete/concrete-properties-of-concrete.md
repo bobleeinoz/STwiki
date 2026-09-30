@@ -83,7 +83,11 @@ own coefficient). `[derived]` The autogenous-shrinkage exponential form and
 the drying-shrinkage `k1·k4·εcsd.b` form are restated in the clause; the
 environment-factor coefficient values and the 30-year typical-strain table
 (Table 3.1.7.2) are data. Overall model
-scatter is flagged at ±30%. Practical note in the clause: uncontrolled
+scatter is flagged at ±30%.
+
+![[as3600-fig-3.1.7.2-shrinkage-k1-coefficient.png]]
+*Figure 3.1.7.2 — drying-shrinkage coefficient `k1` vs. time since drying
+began, by environment band (AS 3600:2018).* Practical note in the clause: uncontrolled
 drying between casting and curing can produce shrinkage from suction that
 exceeds all other shrinkage components combined — curing timing matters more
 than the calculation precision.
@@ -105,6 +109,10 @@ exceeds 0.45×`f'cmi`. Scatter ≈ ±30%, worse above ~25°C sustained temperatu
 The clause explicitly recommends permanent-effect (including prestress)
 compressive stress be kept ≤ 0.45×`f'cmi`. 30-year final creep coefficients
 are tabulated (Table 3.1.8.3).
+
+![[as3600-fig-3.1.8.3-creep-k2-coefficient.png]]
+*Figure 3.1.8.3 — creep coefficient `k2` vs. time since loading, by
+environment band (AS 3600:2018).*
 
 ![[as3600-table-3.1.8.2-basic-creep-coefficient.png]]
 *Table 3.1.8.2 — basic creep coefficient φcc.b by hypothetical thickness and
@@ -142,4 +150,5 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clauses 3.1, 3.5 (Tables
-  3.1.1.1, 3.1.2, 3.1.7.2, 3.1.8.2, 3.1.8.3 reproduced as image assets above).
+  3.1.1.1, 3.1.2, 3.1.7.2, 3.1.8.2, 3.1.8.3, and Figures 3.1.7.2, 3.1.8.3,
+  reproduced as image assets above).

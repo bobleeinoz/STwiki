@@ -91,8 +91,20 @@ calculation, not the section's actual ultimate moment capacity `Muo`).
 6.5 or 6.6) is used with design per Cl 10.2.3 instead. **Radius of
 gyration** `r`: `0.3D` for a rectangular section, `0.25D` for circular,
 always on the *gross* section. **Effective length** `Le = k·Lu`, with `k`
-read from standard alignment charts for simple end restraints, or derived
-more generally from end-restraint coefficients:
+read from standard alignment charts for simple end restraints (Fig 10.5.3),
+or derived more generally from end-restraint coefficients:
+
+![[as3600-fig-10.5.3a-effective-length-factor-simple-restraints.png]]
+*Figure 10.5.3(A) — effective length factor `k` for simple end-restraint
+conditions (AS 3600:2018).*
+
+![[as3600-fig-10.5.3b-effective-length-factor-braced-columns.png]]
+*Figure 10.5.3(B) — effective length factor `k` alignment chart for braced
+columns (AS 3600:2018).*
+
+![[as3600-fig-10.5.3c-effective-length-factor-unbraced-columns.png]]
+*Figure 10.5.3(C) — effective length factor `k` alignment chart for
+unbraced columns (AS 3600:2018).*
 
 - **Regular rectangular framed structures** (10.5.4): `k` from an
   end-restraint-coefficient chart, where each end's coefficient is the ratio

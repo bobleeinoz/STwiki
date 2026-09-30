@@ -54,7 +54,8 @@ at first cyclic loading (7/56/90/360 days) (AS 3600:2018).*
 ### S-N curve parameters for reinforcement and tendons (Cl 18.8)
 
 `[code]` Fatigue resistance of reinforcement and tendons is checked against a
-characteristic S-N curve (indicative form in Figure 18.8), with the governing
+characteristic S-N curve (indicative form in Figure 18.8, reproduced below),
+with the governing
 parameters — reference number of cycles `NRsk`, slope exponents `m1`/`m2`
 either side of the knee point, and reference stress range `ΔσRsk(NRsk)` — read
 from Table 18.8 by detail category (straight/bent bar by diameter, welded bar
@@ -64,6 +65,11 @@ apply a mandrel-diameter factor `kd = 0.35 + 0.026(di/db) ≤ 1.0`.
 Variable-amplitude loading again uses a linear damage sum (Eq 18.8(2)); the
 calculated stress range must not exceed the steel's design yield strength,
 and welded lap splices are prohibited in areas of high fluctuating stress.
+
+![[as3600-fig-18.8-sn-curve-reinforcement-tendons.png]]
+*Figure 18.8 — indicative form of the characteristic S-N curve for
+reinforcement and tendons, showing the knee point and slopes `m1`/`m2`
+(AS 3600:2018).*
 
 ![[as3600-table-18.8-sn-curve-parameters.png]]
 *Table 18.8 — parameters for characteristic S-N curves for reinforcing steel
@@ -85,5 +91,5 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clause 2.4, Clause 18.2 and
-  Clause 18.8 (Tables 2.4, 18.2 and 18.8 reproduced as image assets above;
-  remainder of Section 18 not yet ingested).
+  Clause 18.8 (Tables 2.4, 18.2 and 18.8, and Figure 18.8, reproduced as
+  image assets above; remainder of Section 18 not yet ingested).

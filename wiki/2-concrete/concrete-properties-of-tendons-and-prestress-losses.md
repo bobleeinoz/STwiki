@@ -55,9 +55,13 @@ by test only (no default form offered here, unlike concrete/reinforcement).
 initial force fraction of `fpb`) is determined per AS/NZS 4672.1. Design
 relaxation `R = k7·k8·k9·Rb`, where `k7` depends on time since prestressing
 (a log-time form), `k8` depends on tendon stress as a proportion of `fpb`
-(read from Figure 3.3.4.3 — not reproduced, it's a chart not a formula), and
-`k9` depends on average annual temperature (linear in `T/20`, floored at 1.0).
-Elevated-temperature curing effects must be considered separately.
+(read from Figure 3.3.4.3, reproduced below — it's a chart, not a formula),
+and `k9` depends on average annual temperature (linear in `T/20`, floored at
+1.0). Elevated-temperature curing effects must be considered separately.
+
+![[as3600-fig-3.3.4.3-relaxation-k8-coefficient.png]]
+*Figure 3.3.4.3 — relaxation coefficient `k8` vs. tendon stress as a
+proportion of `fpb` (AS 3600:2018).*
 
 ### Loss of prestress (Cl 3.4)
 
@@ -125,4 +129,4 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clauses 3.3, 3.4 (Table
-  3.3.1 and Figure 3.3.4.3 reproduced as image assets).
+  3.3.1 and Figure 3.3.4.3 reproduced as image assets above).

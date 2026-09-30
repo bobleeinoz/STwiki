@@ -24,6 +24,11 @@ Cl 3.1.4/3.2.3 stress-strain relationships, compression-reinforcement strain
 capped at 0.003), plus an explicit requirement to consider cover spalling
 where the neutral axis lies outside the section.
 
+![[as3600-fig-10.6.2.1-axial-load-moment-diagram.png]]
+*Figure 10.6.2.1 — axial load/moment (`N`–`M`) interaction diagram for a
+column section, showing the squash load, decompression point and
+intermediate transitions (AS 3600:2018).*
+
 ## Detail
 
 ### Squash load `Nuo` (Cl 10.6.2.2)
@@ -59,6 +64,11 @@ central region of the section (Fig 10.6.3) — a geometric check that the
 combined eccentricity isn't large enough on both axes at once to invalidate
 treating them separately.
 
+![[as3600-fig-10.6.3-limitation-line-of-action.png]]
+*Figure 10.6.3 — limitation on the line of action of the resultant force,
+central region of the section within which the Cl 10.6.3 separate-axis
+shortcut applies (AS 3600:2018).*
+
 `[code]` **Full biaxial check** (10.6.4), where the separate-axis shortcut
 doesn't apply: `(Mx*/Mux)^αn + (My*/Muy)^αn ≤ 1.0`, where `Mux`/`Muy` are the
 section's uniaxial bending strengths (calculated separately about each axis
@@ -91,4 +101,4 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 10.6 (Figures 10.6.2.1,
-  10.6.3 not reproduced).
+  10.6.3 reproduced as image assets above).

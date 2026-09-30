@@ -85,11 +85,15 @@ supported on four sides, Ductility Class N or L reinforcement
 - **Torsional moment at exterior corners** (6.10.3.3): deemed resisted by
   conforming with Cl 9.1.3.3(e) corner-reinforcement requirements.
 - **Load allocation to supports** (6.10.3.4): tributary-area-style
-  allocation to supporting beams/walls (Figure 6.10.3.4, not reproduced),
+  allocation to supporting beams/walls (Figure 6.10.3.4, reproduced below),
   with a stated 10% increase on continuous-edge reactions and 20% decrease
   on a discontinuous-edge reaction when one edge is discontinuous; adjacent
   discontinuous edges are handled by separate per-span elastic-shear
   adjustment instead.
+
+![[as3600-fig-6.10.3.4-load-allocation.png]]
+*Figure 6.10.3.4 — tributary-area load allocation from a two-way slab to
+its supporting beams/walls (AS 3600:2018).*
 
 ### Multi-span two-way slab systems (Cl 6.10.4)
 
@@ -155,6 +159,7 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clause 6.10 (Tables
-  6.10.3.2(A)/(B) and 6.10.4.3(A)/(B) reproduced as image assets above; the
-  Cl 6.10.2 continuous-beam/one-way-slab coefficients remain un-reproduced —
-  no single numbered table exists for that sub-clause).
+  6.10.3.2(A)/(B) and 6.10.4.3(A)/(B), and Figure 6.10.3.4, reproduced as
+  image assets above; the Cl 6.10.2 continuous-beam/one-way-slab
+  coefficients remain un-reproduced — no single numbered table exists for
+  that sub-clause).

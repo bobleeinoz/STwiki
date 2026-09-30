@@ -41,6 +41,10 @@ coast and climatic zone, in-water, maritime spray/tidal zones, and "other".
 *Table 4.3 — exposure classifications, by surface and exposure environment
 (AS 3600:2018).*
 
+![[as3600-fig-4.3-climatic-zones.png]]
+*Figure 4.3 — climatic zones of Australia used by Table 4.3's above-ground
+exterior exposure classification (AS 3600:2018).*
+
 Own-words summary of the logic, not the values: severity generally increases
 with proximity to coast/sea, industrial atmosphere, and exposure to
 wetting/drying cycles; A1 is the mildest (e.g. damp-proofed footings,
@@ -168,5 +172,5 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clauses 4.1–4.10 (Tables
-  4.3, 4.4, 4.6, 4.8.1, 4.8.2, 4.10.3.2, 4.10.3.3 reproduced as image assets
-  above).
+  4.3, 4.4, 4.6, 4.8.1, 4.8.2, 4.10.3.2, 4.10.3.3 and Figure 4.3 reproduced
+  as image assets above).

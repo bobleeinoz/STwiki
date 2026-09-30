@@ -37,6 +37,15 @@ geometrically similar to the effective loaded area's boundary, offset by
 strip** — a slab strip of width `a`, aligned perpendicular to the direction
 of the transferred moment `Mv*`, used in the Cl 9.3.4 reduction.
 
+![[as3600-fig-9.3a-critical-shear-perimeter.png]]
+*Figure 9.3(A) — critical shear perimeter, offset `dom/2` from the boundary
+of the effective area of support or load: (a) without critical openings;
+(b) with critical openings within `2.5bo` (AS 3600:2018).*
+
+![[as3600-fig-9.3b-torsion-strips-and-spandrel-beams.png]]
+*Figure 9.3(B) — torsion strips (width `a`) and spandrel beams, offset
+`dom/2` from the critical shear perimeter (AS 3600:2018).*
+
 ### Ultimate shear strength with no moment transfer (Cl 9.3.3)
 
 `[code]` Without a shear head: `Vuo = u·dom·(fcv + 0.3σcp)`, where `u` is the
@@ -82,6 +91,10 @@ the support face, spacing capped at the lesser of 300 mm and the beam/slab
 depth, at least one longitudinal bar per fitment corner, dimensions per
 Fig 9.3.6.
 
+![[as3600-fig-9.3.6-shear-reinforcement-parameters.png]]
+*Figure 9.3.6 — shear reinforcement parameters for the torsion strip/
+spandrel beam (AS 3600:2018).*
+
 `[practice]` Types of shear reinforcement other than those in Cl 9.3.3/9.3.4
 (e.g. proprietary shear studs/rails) may have their strength established by
 testing under Appendix B instead of by this clause's formulas.
@@ -106,4 +119,6 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 9.3 (Figures 9.3(A),
-  9.3(B), 9.3.6 not reproduced).
+  9.3(B), 9.3.6 reproduced as image assets above; 9.3(A)/(B) are also reused
+  on [[concrete-plain-pedestals-and-footings]] Cl 20.4.3, which has no
+  figures of its own).

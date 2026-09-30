@@ -32,12 +32,22 @@ prestressed members where a tendon acts as the tie reinforcement.
 
 `[code]` Struts take one of three shapes — prismatic, fan, or bottle
 (Fig 7.2.1) — chosen by the compression-field geometry; prismatic struts are
-used only where the compressive stress field cannot diverge. An **efficiency
+used only where the compressive stress field cannot diverge.
+
+![[as3600-fig-7.2.1-strut-types.png]]
+*Figure 7.2.1 — strut types: prismatic, fan and bottle-shaped compression
+fields (AS 3600:2018).*
+
+An **efficiency
 factor** `βs` scales the effective strength: `βs = 1.0` for prismatic struts;
 for unconfined fan/bottle-shaped fields, `βs` reduces as a function of the
 strut–tie angle at the node (`βs = 1/(1.0 + 0.66·cot²θ)`, bounded
 `0.3 ≤ βs ≤ 1.0`), using the smallest relevant angle where more than one tie
 meets the node or angles differ at each end of the strut.
+
+![[as3600-fig-7.2.2-strut-tie-angle.png]]
+*Figure 7.2.2 — strut–tie angle `θ` at a node, used in the `βs` efficiency
+factor (AS 3600:2018).*
 
 `[code]` **Design strength**: `φst·βs·0.9·f'c·Ac`, where `Ac` is the strut's
 smallest cross-sectional area normal to its axis, and `φst` comes from
@@ -60,6 +70,14 @@ strength) meets or exceeds the governing
 bursting force, distributed evenly through the bursting-zone length
 `lb = √(z² + a²) − dc` (own-words: `a`, `b`, `z`, `dc` are shear span, member
 width, and geometric projections of the idealized strut — see Fig 7.2.4(A)).
+
+![[as3600-fig-7.2.4a-bottle-strut-bursting-model.png]]
+*Figure 7.2.4(A) — idealized bottle-shaped strut, bursting-zone geometry
+(`a`, `b`, `z`, `dc`, `lb`) (AS 3600:2018).*
+
+![[as3600-fig-7.2.4b-bursting-reinforcement.png]]
+*Figure 7.2.4(B) — bursting reinforcement layout in a bottle-shaped strut
+(AS 3600:2018).*
 
 ### Ties (Cl 7.3)
 
@@ -118,4 +136,4 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clauses 7.1–7.6 (Figures 7.2.1,
-  7.2.2, 7.2.4(A)/(B) not reproduced).
+  7.2.2, 7.2.4(A)/(B) reproduced as image assets above).

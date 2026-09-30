@@ -63,6 +63,10 @@ matching analysis method is not a valid shortcut:
 - **One-way slabs** (9.1.3.2), for slabs analysed by the Cl 6.10.2 simplified
   method (see [[concrete-simplified-flexural-analysis]]) under the same
   span-ratio/load-ratio gates.
+
+![[as3600-fig-9.1.3.2-one-way-slab-reinforcement-arrangement.png]]
+*Figure 9.1.3.2 — deemed-to-conform reinforcement arrangement for one-way
+slabs designed by the Cl 6.10.2 simplified method (AS 3600:2018).*
 - **Two-way slabs on four sides** (9.1.3.3), for slabs analysed by the
   Cl 6.10.3 method: negative-moment reinforcement at a discontinuous edge
   extends 0.15× the shorter span into the slab; **exterior-corner**
@@ -77,6 +81,11 @@ matching analysis method is not a valid shortcut:
   column by a minimum length for positive-moment steel (or as close to the
   edge as possible if there's no spandrel/wall), and far enough to develop
   the calculated force (Cl 13.1) for negative-moment steel.
+
+![[as3600-fig-9.1.3.4-two-way-flat-slab-reinforcement-arrangement.png]]
+*Figure 9.1.3.4 — deemed-to-conform reinforcement arrangement for two-way
+flat slabs designed by the Cl 6.10.4 idealized-frame-derived method
+(AS 3600:2018).*
 
 ## Detail — Structural integrity reinforcement (Cl 9.2)
 
@@ -129,4 +138,4 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clauses 9.1, 9.2 (Figures
-  9.1.3.2, 9.1.3.4 not reproduced).
+  9.1.3.2, 9.1.3.4 reproduced as image assets above).

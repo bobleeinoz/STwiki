@@ -45,6 +45,14 @@ adequacy, integrity, insulation) in that order. **FRP** — the tested/assessed
 time to failure of the relevant criterion, per AS 1530.4 where the BCA
 governs.
 
+![[as3600-fig-5.2.1-average-axis-distance.png]]
+*Figure 5.2.1 — average axis distance `am` across multiple reinforcement
+layers (AS 3600:2018).*
+
+![[as3600-fig-5.2.2-axis-distance-sections.png]]
+*Figure 5.2.2 — axis distance `as` in typical beam/slab/column cross-sections
+(AS 3600:2018).*
+
 `[code]` Prestressing tendons need a larger axis distance than an equivalent
 reinforcing bar would: +15 mm for strand/wire, +10 mm for bars (Cl 5.3.3),
 applied on top of whatever the beam/slab/column/wall table gives for "bars".
@@ -72,9 +80,17 @@ Four-sided fire exposure (rectangular beams not built into a slab) uses the
 same tables but with additional proportioning rules on total depth and
 cross-sectional area relative to the tabulated `b`.
 
+![[as3600-fig-5.4.1a-frp-beams-simply-supported.png]]
+*Figure 5.4.1(A) — beam cross-section geometry for the simply supported FRP
+table, average axis distance `am` and width `b` (AS 3600:2018).*
+
 ![[as3600-table-5.4.1a-frp-simply-supported-beams.png]]
 *Table 5.4.1(A) — FRPs for structural adequacy for simply supported beams,
 combinations of average axis distance `am` and width `b` (AS 3600:2018).*
+
+![[as3600-fig-5.4.1b-frp-beams-continuous.png]]
+*Figure 5.4.1(B) — beam cross-section geometry for the continuous-beam FRP
+table (AS 3600:2018).*
 
 ![[as3600-table-5.4.1b-frp-continuous-beams.png]]
 *Table 5.4.1(B) — FRPs for structural adequacy for continuous beams, same
@@ -155,6 +171,11 @@ method, axis distance/dimension by exposure condition and load level
 tabular method, axis distance/dimension by mechanical reinforcement ratio
 (AS 3600:2018).*
 
+![[as3600-fig-5.6.4-columns-general-method-1.png]]
+![[as3600-fig-5.6.4-columns-general-method-2.png]]
+*Figure 5.6.4 — column cross-section geometry for the general tabular
+method, axis distance and dimension parameters (AS 3600:2018).*
+
 Columns outside either method's limits, or with a long/short side ratio
 ≥ 4:1, are directed to be treated as walls (Cl 5.7) or via a full performance
 solution (Cl 5.3.1(b), BCA route).
@@ -215,5 +236,5 @@ None recorded.
 ## Sources
 
 - `raw/0-standards/AS_3600-2018-Reprint-Cut.pdf`, Clauses 5.1–5.8 (numbered
-  tables reproduced as image assets above; companion figures done
-  separately).
+  tables and Figures 5.2.1, 5.2.2, 5.4.1(A)/(B), 5.6.4 reproduced as image
+  assets above).

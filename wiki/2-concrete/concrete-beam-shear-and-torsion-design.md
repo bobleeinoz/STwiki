@@ -172,6 +172,11 @@ past where it's theoretically needed (Fig 8.2.8) — this is the practical
 "detail it this way and you don't need to run the longitudinal-tension
 check" route most designers use.
 
+![[as3600-fig-8.2.8-longitudinal-tension-curtailment.png]]
+*Figure 8.2.8 — deemed-to-comply extension of flexural tensile
+reinforcement by `dv·cot(θv)` past the point theoretically required
+(AS 3600:2018).*
+
 ### Hanging reinforcement (Cl 8.2.6)
 
 `[code]` Loads applied away from a member's top chord must be hung up to the
@@ -200,7 +205,8 @@ None recorded.
 
 ## Sources
 
-- `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 8.2. **Note**: text
+- `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 8.2 (Figure 8.2.8
+  reproduced as an image asset above). **Note**: text
   extraction from this clause was unusually degraded (missing Greek symbols
   and subscripts) — treat numeric coefficients above as provisional pending
   direct clause verification.

@@ -74,6 +74,14 @@ methods:
 - **Transverse width** `Lt` — design-strip width measured perpendicular to the
   bending direction considered.
 
+![[as3600-fig-6.1.4a-design-strip-widths.png]]
+*Figure 6.1.4(A) — design strip, column strip and middle strip widths for a
+two-way slab system (AS 3600:2018).*
+
+![[as3600-fig-6.1.4b-span-support-length.png]]
+*Figure 6.1.4(B) — span support length `asup`, including the drop-panel/
+capital construction line (AS 3600:2018).*
+
 ## Worked reference
 
 None yet.
@@ -90,4 +98,5 @@ None recorded.
 
 ## Sources
 
-- `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 6.1.
+- `raw/0-standards/AS_3600-2018-Reprint.pdf`, Clause 6.1 (Figures 6.1.4(A)/(B)
+  reproduced as image assets above).
