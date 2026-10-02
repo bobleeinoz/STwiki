@@ -7,8 +7,11 @@ Claude updates this on every ingest.
 
 [[as-3600-2018-concrete-structures]] — AS 3600:2018 standard register and section-level clause map for concrete structures.
 [[as-4100-2020-steel-structures]] — AS 4100:2020 standard register and section-level clause map for steel structures; flags the NCC unamended-edition compliance trap.
+[[aci-318m-19-building-code-concrete]] — ACI 318M-19 (US) standard register and chapter-level clause map; kept separate from AS 3600 concept pages by design — comparative/reference source only, not an Australian governing code.
 
 ## 1-steelwork
+
+### components
 
 [[steel-materials-and-design-strengths]] — AS 4100 Section 2: design yield stress/tensile strength by product and thickness (Table 2.1), elastic constants, fasteners, Z-quality.
 [[steel-limit-state-design-basis]] — AS 4100 Section 3: loads, load combinations, stability/strength/serviceability procedures, capacity factors (Table 3.4), deflection/corrosion routing.
@@ -45,14 +48,19 @@ Claude updates this on every ingest.
 [[steel-corrosion-protection-selection]] — AS 4100 App C: corrosion protection selection pointers (AS 4312, AS 2312.1, AS/NZS 2312.2).
 [[steel-lamellar-tearing-avoidance]] — AS 4100 App M: Z_Ed vs Z_Rd lamellar tearing risk check and material selection procedure.
 [[steel-slip-factor-test-procedure]] — AS 4100 App J: standard laboratory test for evaluating a friction-connection slip factor.
+[[steel-crane-runway-beam-composition]] — ASI DCT Vol 1 Part 13: crane runway beam (WB/UB + PFC) composition, dimensions and properties; notes the design-method gap.
+
+### references
+
 [[asi-design-capacity-tables-vol1-open-sections]] — ASI DCT Vol 1 (1999, AS 4100-1998 vintage): source register for the 13-part design-aid pre-computing section properties and AS 4100 capacities for open sections.
 [[asi-dct-vol1-open-section-properties]] — ASI DCT Vol 1 Parts 2 & 3.1: full transcribed dimensions/section-property tables (WB, WC, UB, UC, BT, CT, PFC, TFB, EA, UA, bars, flats), incl. holed-tension-flange variants.
 [[asi-dct-vol1-fire-surface-area-tables]] — ASI DCT Vol 1 Part 3.2: full transcribed surface-area and k_sm (exposed surface area to mass ratio) tables for every open section, 6 exposure cases.
 [[asi-dct-vol1-beam-capacity-tables]] — ASI DCT Vol 1 Part 5: full transcribed maximum-UDL, design section moment/web, and design member moment (φM_b vs L_e) capacity tables for every open section.
 [[asi-dct-vol1-compression-capacity-tables]] — ASI DCT Vol 1 Part 6: full transcribed design member axial compression capacity (φN_c vs L_e, both axes) tables for every open section, Grade 300 & 400.
-[[steel-crane-runway-beam-composition]] — ASI DCT Vol 1 Part 13: crane runway beam (WB/UB + PFC) composition, dimensions and properties; notes the design-method gap.
 
 ## 2-concrete
+
+### components
 
 [[concrete-limit-state-design-basis]] — AS 3600 Cl 2.1/2.5: limit states, earthquake/robustness/fatigue applicability, actions and load combinations.
 [[concrete-strength-check-procedures]] — AS 3600 Cl 2.2: the five Rd ≥ Ed strength check procedures by analysis method.
@@ -96,13 +104,63 @@ Claude updates this on every ingest.
 [[concrete-anchorage-zones-and-bearing-surfaces]] — AS 3600 Cl 12.5-12.6: reinforcement behind concentrated forces/anchorages, bearing stress limits.
 [[concrete-d-region-crack-control]] — AS 3600 Cl 12.7: crack control in D-regions and non-flexural members.
 
+ACI 318M-19 pages (US code, kept separate from the AS 3600 pages above — see [[aci-318m-19-building-code-concrete]]):
+
+[[aci318-structural-system-requirements]] — ACI 318M-19 Ch 4: structural system components, load paths, φS_n ≥ U strength basis, structural integrity (Table 4.10.2.1), precast/prestressed/composite/plain-concrete system requirements.
+[[aci318-loads-and-load-combinations]] — ACI 318M-19 Ch 5: Table 5.3.1 load combinations, live load factor reduction, special load factors (T, F, H, flood, ice, prestressing).
+[[aci318-structural-analysis-methods]] — ACI 318M-19 Cl 6.1-6.5: method menu, modeling assumptions, T-beam effective flange width (Table 6.3.2.1), live load arrangement, simplified method (Tables 6.5.2, 6.5.4).
+[[aci318-column-slenderness-and-moment-magnification]] — ACI 318M-19 Cl 6.2.5, 6.6.4: slenderness-neglect screening, alignment charts (Fig R6.2.5.1), nonsway/sway moment magnifier, (EI)eff.
+[[aci318-second-order-and-advanced-analysis]] — ACI 318M-19 Cl 6.6.3, 6.6.5-6.9: section properties (Table 6.6.3.1.1a), moment redistribution (Fig R6.6.5), second-order/inelastic/finite element analysis.
+[[aci318-one-way-slab-design]] — ACI 318M-19 Ch 7: minimum thickness (Table 7.3.1.1), required/design strength, reinforcement limits (min flexural/shear/shrinkage-temperature), reinforcement detailing (termination, structural integrity).
+[[aci318-two-way-slab-design-basis]] — ACI 318M-19 Cl 8.1-8.4: scope (flat plates/slabs/waffle slabs), column/middle strip definitions, minimum thickness (Tables 8.3.1.1, 8.3.1.2), factored moment transfer (γ_f, Table 8.4.2.2.4), two-way shear stress distribution (Fig R8.4.4.2.3).
+[[aci318-two-way-slab-reinforcement-and-shear-detailing]] — ACI 318M-19 Cl 8.5-8.9: punching-shear-triggered minimum reinforcement (Eq 8.6.1.2), bar extension/termination (Fig 8.7.4.1.3), corner reinforcement, stirrup/headed-stud shear reinforcement, two-way joist systems, lift-slab construction.
+[[aci318-strength-reduction-factors]] — ACI 318M-19 Ch 21: φ table by action/element (Table 21.2.1), tension/compression-controlled classification by net tensile strain (Table 21.2.2), pretensioned-end φ, seismic shear-φ modifications.
+[[aci318-sectional-strength-flexure-and-axial]] — ACI 318M-19 Cl 22.2-22.4: equivalent rectangular stress block (β1, Table 22.2.2.4.3), flexural strength assumptions, P_n,max (Table 22.4.2.1), maximum axial tension.
+[[aci318-one-way-shear-strength]] — ACI 318M-19 Cl 22.5: V_n = V_c + V_s, 2019 size-effect V_c revision (λ_s, Table 22.5.5.1), prestressed V_ci/V_cw, shear reinforcement.
+[[aci318-two-way-shear-strength]] — ACI 318M-19 Cl 22.6: punching shear critical sections (incl. openings), v_c with/without shear reinforcement (Tables 22.6.5.2, 22.6.6.1), stirrup/headed-stud v_s.
+[[aci318-torsional-strength]] — ACI 318M-19 Cl 22.7: threshold/cracking torsion (Tables 22.7.4.1, 22.7.5.1), space-truss T_n (space truss analogy, A_oh), equilibrium vs compatibility torsion, combined shear+torsion size limit.
+[[aci318-bearing-and-shear-friction]] — ACI 318M-19 Cl 22.8-22.9: bearing strength via frustum-confined A2 (Table 22.8.3.2), shear-friction clamping model, coefficients of friction (Table 22.9.4.2).
+[[aci318-strut-and-tie-method]] — ACI 318M-19 Ch 23: D-regions, strut/tie/nodal zone strength (βs, βc, βn tables), minimum distributed reinforcement, curved-bar nodes, seismic STM detailing.
+[[aci318-serviceability-deflection-and-cracking]] — ACI 318M-19 Ch 24: deflection limits (Table 24.2.2), 2019 effective Ie, one-way crack-control spacing (Table 24.3.2), shrinkage/temperature steel, prestressed U/T/C classification and stress limits.
+[[aci318-beam-design-basis-and-strength]] — ACI 318M-19 Cl 9.1-9.5: beam scope, stability, T-beam torsional flange width, minimum depth (Table 9.3.1.1), strain/stress limits, critical sections, design strength checklist and torsion rules.
+[[aci318-beam-reinforcement-limits-and-detailing]] — ACI 318M-19 Cl 9.6-9.7: minimum flexural/shear (Table 9.6.3.4)/torsional steel, skin reinforcement, bar cutoff and termination rules, torsion and stirrup detailing (Table 9.7.6.2.2), integrity reinforcement.
+[[aci318-joists-and-deep-beams]] — ACI 318M-19 Cl 9.8-9.9: one-way joist geometry and 1.1Vc allowance, fillers, deep beam definition, Vu ≤ 0.83φ√f'c bwd limit and distributed reinforcement.
+[[aci318-column-design]] — ACI 318M-19 Ch 10: effective section, load-combination checking, 1%-8% steel limits, bar count, offset bars, splice classes, ties/spirals placement, shear spacing (Table 10.7.6.5.2).
+[[aci318-wall-design]] — ACI 318M-19 Ch 11: wall scope/routing, minimum thickness, simplified out-of-plane axial method (k factors), in-plane shear Vn with αc, minimum steel (Table 11.6.1), spacing/openings, slender-wall alternative method.
+[[aci318-diaphragm-design]] — ACI 318M-19 Ch 12: diaphragm types and actions, analysis models (rigid/flexible/bounding/FE/STM), moment/shear/collector design strength, reinforcement limits and detailing.
+[[aci318-foundation-design]] — ACI 318M-19 Ch 13: shallow foundations (critical sections, γs short-band rule, mats, grade beams), deep foundations (allowable and strength design, precast piles), pile caps, retaining-wall stems.
+[[aci318-plain-concrete-design]] — ACI 318M-19 Ch 14: where plain concrete is permitted (incl. SDC D-F limits), thickness/joint limits, flexure/axial/shear/bearing strength equations.
+[[aci318-beam-column-and-slab-column-joints]] — ACI 318M-19 Ch 15: joint scope, strut-and-tie trigger, extensions/confinement, transverse steel, joint shear strength Vn (Table 15.4.2.3), column axial force through lower-strength floors.
+[[aci318-connections-between-members]] — ACI 318M-19 Ch 16: precast connections and integrity ties, foundation connections, composite horizontal shear (Table 16.4.4.2), brackets and corbels.
+[[aci318-anchoring-general-and-tensile-strength]] — ACI 318M-19 Cl 17.1-17.6: anchor scope, failure modes, φ factors (Table 17.5.3), steel/breakout/pullout/side-blowout/adhesive-bond tensile strength.
+[[aci318-anchoring-shear-interaction-seismic-and-shear-lugs]] — ACI 318M-19 Cl 17.7-17.11: anchor shear strength (steel, breakout, pryout), tension-shear interaction, spacing/edge distances, SDC C-F design, shear lugs.
+[[aci318-earthquake-general-and-ordinary-intermediate-frames]] — ACI 318M-19 Cl 18.1-18.5: SDC routing, general/material/splice rules, ordinary and intermediate moment frames, two-way slabs without beams, intermediate precast walls.
+[[aci318-special-moment-frames]] — ACI 318M-19 Cl 18.6-18.9: special moment frame beams, columns (Table 18.7.5.4 confinement), strong-column/weak-beam, joints (Table 18.8.4.3), precast frames.
+[[aci318-special-structural-walls]] — ACI 318M-19 Cl 18.10-18.11: special wall reinforcement, design shear Ve (Ωv, ωv), boundary elements (Table 18.10.6.4g), coupling beams, wall piers, precast walls.
+[[aci318-earthquake-diaphragms-foundations-and-non-sfrs-members]] — ACI 318M-19 Cl 18.12-18.14: seismic diaphragms/collectors/trusses, foundations (piles, seismic ties), members not in the seismic-force-resisting system.
+[[aci318-concrete-design-properties-and-durability]] — ACI 318M-19 Ch 19: f'c limits, Ec, fr, λ, exposure classes F/S/W/C, mixture requirements, air content, chloride limits.
+[[aci318-reinforcement-properties-durability-and-embedments]] — ACI 318M-19 Ch 20: bar/wire grades and max fy, seismic A706/A615 rules, prestressing fpu/fps/stresses, cover tables, coatings, tendon protection, embedments.
+[[aci318-reinforcement-spacing-hooks-and-development]] — ACI 318M-19 Cl 25.1-25.4: bar/tendon spacing, standard and seismic hooks, development of bars, hooks, heads, welded wire, strand.
+[[aci318-splices-bundled-bars-and-transverse-reinforcement]] — ACI 318M-19 Cl 25.5-25.7: lap/mechanical splices, bundled bars, stirrups, ties, spirals, hoops.
+[[aci318-post-tensioning-anchorages-and-anchorage-zones]] — ACI 318M-19 Cl 25.8-25.9: anchorage/coupler capacity, local and general zone design.
+[[aci318-construction-documents-concrete-materials-and-production]] — ACI 318M-19 Cl 26.1-26.5: design information vs compliance, cementitious materials, mixture requirements (Tables 26.4.2.2), proportioning, placement, curing, joints.
+[[aci318-reinforcement-anchors-embedments-precast-and-formwork-requirements]] — ACI 318M-19 Cl 26.6-26.11: reinforcement placement tolerances, bending, welding, anchors, embedments, precast, prestressing, formwork.
+[[aci318-concrete-acceptance-testing-and-inspection]] — ACI 318M-19 Cl 26.12-26.13: strength-test frequency and acceptance, core investigation, shotcrete/steel-fibre acceptance, inspection items and reports.
+[[aci318-strength-evaluation-of-existing-structures]] — ACI 318M-19 Ch 27: analytical evaluation, load-test loads and acceptance (monotonic/cyclic).
+[[aci318-nonlinear-response-history-analysis]] — ACI 318M-19 Appendix A: NLRHA verification, action classes, effective stiffness, expected strengths, enhanced detailing, peer review.
+
+### references
+
+[[aci318-steel-reinforcement-size-tables]] — ACI 318M-19 Appendix B: ASTM bar, strand/wire/bar and welded-wire size, area and mass tables (image transcription).
+[[aci318-unit-equivalence-tables]] — ACI 318M-19 Appendix C: SI / MKS / US customary equivalence of non-homogeneous equations (image transcription of pp. 585-594).
+
 ## 3-foundation-geotech
 
 ## 4-loads-mechanics-maths
 
 ## 5-software-fea
 
-## 6-plant-structures
+## 6-mining-structures
 
 ## 7-practice
 

@@ -41,6 +41,26 @@ sit under the same category.
 Maximum nesting inside a category is one level. If a category needs a third
 level, it should be split or the pages merged.
 
+### Components / references split
+
+Inside each technical discipline folder (`1-steelwork` through `6-mining-structures`),
+pages are split into exactly two sub-folders:
+
+| Sub-folder | Holds |
+|---|---|
+| `components/` | Every ordinary concept page: member types, design checks, procedures, tool behaviour, strength/serviceability methods — regardless of which source it was ingested from. This includes pages built around a secondary or foreign source (an ASI handbook, a manufacturer design aid, a foreign code such as ACI 318 kept for comparison per CLAUDE.md's standing exception) just as much as pages built around the discipline's own primary AS/NZS standard. **This is the default home for every new page.** |
+| `references/` | Narrow: only (a) a source summary/register page (section 3, "Source summary pages") when it is filed in this folder rather than `0-standards`, and (b) a page that is substantially a raw, wholesale transcription of a source's own lookup tables or data (e.g. full section-property or capacity tables copied from a design-aid catalogue) rather than an explained concept. If a page has explanatory prose around tagged clauses/provisions — even if every provision cited comes from a non-AS/NZS source — it is a component page, not a reference page. |
+
+`0-standards`, `7-practice` and `8-projects` do not use this split — they are
+already a single, homogeneous kind of page. `assets/` stays flat at the
+discipline-folder root (not split by components/references) since images are
+shared across both.
+
+When creating a new page in a discipline folder, file it in `components/`
+by default. Only file it in `references/` if it fails the "explained concept"
+test above — i.e. it is itself the source's register page, or it is a raw
+data/table transcription with no real explanatory content of its own.
+
 ---
 
 ## 3. Page rules
