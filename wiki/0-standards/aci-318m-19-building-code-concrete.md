@@ -12,7 +12,7 @@ reviewed: 2026-10-01
 > Scope: standard register and chapter-level clause map for ACI 318M-19 (the
 > SI-metric edition of ACI 318-19). Which chapter governs what, edition
 > status, and how this source is kept separate from the AS 3600:2018 concept
-> pages elsewhere in `2-concrete`. No clause text reproduced verbatim — see
+> pages in `2-concrete`. No clause text reproduced verbatim — see
 > `raw/0-standards/ACI-318M-19.pdf` for the source.
 
 ## Summary
@@ -42,9 +42,9 @@ codes differ enough in load-combination basis, φ-factor philosophy, and
 detailing formulae that a single merged page would misrepresent both. **Per
 explicit human instruction this session, ACI 318M-19 content is kept on its
 own `aci-`-prefixed pages, never merged into or used to extend an existing
-`concrete-*.md` (AS 3600) page.** Both sets of pages live in the `2-concrete`
-category folder per CLAUDE.md's folder map (the content is still "reinforced/
-prestressed concrete"), but are distinguished by filename prefix. This is a
+`as3600-*.md` (AS 3600) page.** The ACI pages live in `0-standards/components/` (moved from `2-concrete` on
+2026-10-03, per human instruction), the AS 3600 pages in `0-standards/components/` too;
+the `aci318-` filename prefix distinguishes them. This is a
 deliberate, human-directed exception to CLAUDE.md §3's default "extend the
 existing page" rule — recorded here per §5's provenance/workflow intent, and
 in `log.md`.
@@ -147,7 +147,7 @@ above and in [[index]]. Ingest of Chapters 4-27 and Appendices A-C is complete, 
 per the phased plan agreed with the human — see `log.md` for phase-by-phase
 status. Not ingested as pages: Chapters 1-3 (summarised above), the
 References list (printed pp. 595-613) and the Index (pp. 615-623). Appendix B
-and C are data tables, filed under `2-concrete/references/`.
+and C are data tables, filed under `0-standards/references/`.
 
 ## Sources
 

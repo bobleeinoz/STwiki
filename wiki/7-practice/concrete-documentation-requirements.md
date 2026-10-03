@@ -22,8 +22,8 @@ a checklist:
 - [ ] Imposed actions (live loads) used in design.
 - [ ] Earthquake design category (from AS 1170.4).
 - [ ] Any constraint on construction assumed in the design.
-- [ ] Exposure classification for durability (see [[concrete-durability-and-cover]]).
-- [ ] Fire resistance level (FRL), if applicable (see [[concrete-fire-resistance-design]]).
+- [ ] Exposure classification for durability (see [[as3600-durability-and-cover]]).
+- [ ] Fire resistance level (FRL), if applicable (see [[as3600-fire-resistance-design]]).
 - [ ] Class and grade designation of concrete.
 - [ ] Any required properties of the concrete.
 - [ ] Curing procedure.
@@ -54,7 +54,7 @@ None recorded.
 
 - [[wiki/0-standards/as-3600-2018-concrete-structures]] — source standard and
   clause map.
-- [[concrete-durability-and-cover]], [[concrete-fire-resistance-design]] — the
+- [[as3600-durability-and-cover]], [[as3600-fire-resistance-design]] — the
   two items on this list with their own concept pages so far.
 
 ## Sources

@@ -76,14 +76,20 @@ importance factor (risk to life / consequence of failure), service
 category (exposure to actions that reveal flaws), and fabrication category
 (fabrication complexity) (Cl L.2–L.3.1).
 
-`[code]` Table L.1 — suggested criteria for service categories:
+![[as4100-table-L.1-service-categories.png]]
+*Table L.1 — suggested criteria for service categories (AS 4100:2020).*
+
+`[code]` Table L.1 — suggested criteria for service categories (transcribed):
 
 | Category | Criteria |
 |---|---|
 | SC1 | (a) Predominantly quasi-static actions only — e.g. typical multi-level buildings, warehouses, storage facilities; **or** (b) low seismic demand (AS 1170.4 Earthquake Design Category I or II); **or** (c) low-level fatigue actions where assessment is not required (satisfies Cl 11.4, or cranes classified S1–S3 to AS 1418.1—2002). |
 | SC2 | (d) Members/connections subject to fatigue assessment per this Standard or AS/NZS 5100.6 — e.g. road/rail bridges, cranes and their immediate supporting structure, structures susceptible to wind/crowd/machinery-induced vibration; **or** (e) medium-to-high seismic demand (Earthquake Design Category III). |
 
-`[code]` Table L.2 — suggested criteria for fabrication categories:
+![[as4100-table-L.2-fabrication-categories.png]]
+*Table L.2 — suggested criteria for fabrication categories (AS 4100:2020).*
+
+`[code]` Table L.2 — suggested criteria for fabrication categories (transcribed):
 
 | Category | Criteria |
 |---|---|
@@ -162,13 +168,13 @@ None recorded.
 ## Related
 
 - [[as-4100-2020-steel-structures]] — standard register.
-- [[steel-limit-state-design-basis]] — Cl 3.13 reliability management.
-- [[steel-fabrication-and-erection-requirements]] — Sections 14–16.
-- [[steel-materials-and-design-strengths]] — Z-quality / lamellar tearing.
+- [[as4100-limit-state-design-basis]] — Cl 3.13 reliability management.
+- [[as4100-fabrication-and-erection-requirements]] — Sections 14–16.
+- [[as4100-materials-and-design-strengths]] — Z-quality / lamellar tearing.
 - [[concrete-documentation-requirements]] — AS 3600 counterpart checklist.
 
 ## Sources
 
 - `raw/0-standards/AS_4100-2020-Reprinted-Cut.pdf`, Cl 1.5–1.7 (pp. 24–26),
-  Appendix L (pp. 209–211). Table L.3 reproduced in
-  `wiki/1-steelwork/assets/`.
+  Appendix L (pp. 209–211). Tables L.1-L.3 reproduced in
+  `wiki/0-standards/assets/`.

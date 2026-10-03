@@ -16,7 +16,7 @@ reviewed: 2026-09-13
 > forms of construction (rigid/semi-rigid/simple), the four elements a
 > connection design model must capture, and real moment-rotation behaviour
 > of common connection types. This is industry design-guide commentary,
-> not AS 4100 text itself — see [[steel-connection-design-requirements]]
+> not AS 4100 text itself — see [[as4100-connection-design-requirements]]
 > for the code clauses it explains.
 
 ## Summary
@@ -139,8 +139,8 @@ for (D).
 `[practice]` The design models in the ASI Connections Series are intended
 for **statically loaded** connections only; connections subject to dynamic
 loads, earthquake loads or fatigue may need additional considerations
-beyond this series — see [[steel-fatigue-design]] and
-[[steel-earthquake-design-requirements]].
+beyond this series — see [[as4100-fatigue-design]] and
+[[as4100-earthquake-design-requirements]].
 
 ### Real moment-rotation behaviour (Ch 2.4)
 
@@ -207,9 +207,9 @@ None recorded.
 
 ## Related
 
-- [[steel-connection-design-requirements]] — AS 4100 Cl 9.1 code text this
+- [[as4100-connection-design-requirements]] — AS 4100 Cl 9.1 code text this
   handbook explains (classification, minimum design actions, block shear).
-- [[steel-structural-analysis-methods]] — Cl 4.2 forms of construction as
+- [[as4100-structural-analysis-methods]] — Cl 4.2 forms of construction as
   used in frame analysis.
 - [[steel-bolt-group-analysis-methods]] — bolt-group design models used to
   realise the connection design philosophy above.

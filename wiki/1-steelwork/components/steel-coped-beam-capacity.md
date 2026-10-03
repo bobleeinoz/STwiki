@@ -74,6 +74,11 @@ deduction is required for web holes (Cl 5.2.6 only addresses flanges).
 *Figure 51 — I-section with holes in both flanges: net section properties
 `A'`, `I'_x`, `Z'_x`, `S'_x` (ASI Handbook 1, 2007).*
 
+![[asi-h1-fig-52-section-holes-one-flange.png]]
+*Figure 52 — I-section with holes in the bottom flange only: neutral-axis
+shift `Δy`, `y_bh`, `y_th`, holed `A'`, `I'_x` and `Z'_x` (ASI Handbook 1,
+2007).*
+
 ![[asi-h1-fig-53-section-holes-one-flange.png]]
 *Figure 53 — I-section with holes in one flange: plastic neutral axis
 shift `y_bp`, net plastic modulus `S'_x` (ASI Handbook 1, 2007).*
@@ -317,11 +322,11 @@ before use, and cite AS 4100 Cl 9.1.9(e) for code compliance.
 - [[steel-connection-component-capacity]] — the parallel Ch 5 treatment
   for connection components (gusset plates, cleats), including the
   block-shear formula divergence with AS 4100 Cl 9.1.9(e).
-- [[steel-beam-section-moment-capacity]] — Cl 5.2 general section moment
+- [[as4100-beam-section-moment-capacity]] — Cl 5.2 general section moment
   capacity provisions (uncoped case).
-- [[steel-web-shear-and-bearing]] — Cl 5.11–5.13 general shear capacity
+- [[as4100-web-shear-and-bearing]] — Cl 5.11–5.13 general shear capacity
   and shear-moment interaction provisions.
-- [[steel-web-stiffeners]] — general AS 4100 stiffener design (Cl 5.14–
+- [[as4100-web-stiffeners]] — general AS 4100 stiffener design (Cl 5.14–
   5.16), the code-clause counterpart to the coped-end stiffening practice
   above.
 - [[steel-connection-classification-and-design-philosophy]] — the four
@@ -332,7 +337,7 @@ before use, and cite AS 4100 Cl 9.1.9(e) for code compliance.
 
 - `raw/1-steelwork/ASI - Handbook 1 - Background and Theory - Design of
   Structural Steel Connections.pdf`, Ch 6.1–6.10 (pp. 86–109). Figures
-  51, 53, 54, 55, 59, 60, 61, 62, 63, 64, 65 and Tables 32A/B, 33A, 34A/B
-  reproduced in `wiki/1-steelwork/assets/`. Figure 52, Table 32C, Table
+  51, 52, 53, 54, 55, 59, 60, 61, 62, 63, 64, 65 and Tables 32A/B, 33A, 34A/B
+  reproduced in `wiki/1-steelwork/assets/`. Table 32C, Table
   33B and the PFC-specific SWC formula variations described in text but
   not reproduced.

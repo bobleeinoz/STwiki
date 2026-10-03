@@ -16,7 +16,7 @@ reviewed: 2026-09-13
 > bolt group loaded out-of-plane (Cl 9.4.2), prying action in a bolted
 > T-stub/flange connection, and three fully worked design examples. This is
 > the derivation and design-aid material behind the brief clause summary on
-> [[steel-bolt-design]] (Cl 9.3 "Assessment of a bolt group").
+> [[as4100-bolt-design]] (Cl 9.3 "Assessment of a bolt group").
 
 ## Summary
 
@@ -81,7 +81,7 @@ the centroidal shear terms (principle of superposition, Cl 9.4.1(b)):
 
 `V*_res = sqrt{[V*_bv/n_b + M*_bm x_max/I_bp]² + [V*_bh/n_b + M*_bm y_max/I_bp]²}` (Eqn 3.9.13)
 
-— checked against `φV_f` (single-bolt shear capacity, [[steel-bolt-design]]
+— checked against `φV_f` (single-bolt shear capacity, [[as4100-bolt-design]]
 Cl 9.2.2.1) with the bolt-group `φ = 0.80`.
 
 ![[asi-h1-fig-12-horizontal-vertical-bolt-forces.png]]
@@ -118,7 +118,7 @@ bearing** design aids (`Z_e`, `Z_ev`, `Z_eh` — Figures 14 and 16): the
 resultant force at the extreme bolt is checked against ply bearing
 (`φV_bf = φ3.2 d_f t_p f_up`) and against vertical/horizontal tear-out
 (`φV_ev/φV_eh = φ a_ev/a_eh t_p f_up`) using the same `e`, `s_p`, `s_g`
-geometry — see [[steel-bolt-design]] for the underlying tear-out mechanics
+geometry — see [[as4100-bolt-design]] for the underlying tear-out mechanics
 (Figures 4–6).
 
 ![[asi-h1-fig-14-single-bolt-column-tearout.png]]
@@ -160,7 +160,7 @@ through side by side and reconciled to the same answer:
 (ASI Handbook 1, 2007).*
 
 `[derived]` This example is a direct, numeric illustration of how
-[[steel-bolt-design]]'s brief Cl 9.3.1 clause summary and the full Eqn
+[[as4100-bolt-design]]'s brief Cl 9.3.1 clause summary and the full Eqn
 3.9.13 above translate into a hand calculation — useful as a template for
 checking a bracket/bolt-group connection by hand or auditing software
 output.
@@ -311,7 +311,7 @@ None recorded.
 
 ## Related
 
-- [[steel-bolt-design]] — AS 4100 Cl 9.2–9.3 code clauses this page's
+- [[as4100-bolt-design]] — AS 4100 Cl 9.2–9.3 code clauses this page's
   methods implement; tear-out mechanics (Figures 4–6).
 - [[steel-connection-classification-and-design-philosophy]] — Cl 9.1.3
   design-model requirements referenced by Cl 9.4.2.

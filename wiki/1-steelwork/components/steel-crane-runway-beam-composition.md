@@ -70,9 +70,9 @@ relevant but must be assembled from the general bending, combined-actions
 and fatigue provisions already on this wiki). Until a dedicated source is
 ingested, treat crane runway beam design as: geometry from this page,
 loads from AS 1418, and strength/serviceability/fatigue checks assembled
-from [[steel-beam-section-moment-capacity]], [[steel-beam-member-moment-capacity]],
-[[steel-combined-actions-section-capacity]], [[steel-combined-actions-member-capacity]]
-and [[steel-fatigue-design]] — with the asymmetric/composite section
+from [[as4100-beam-section-moment-capacity]], [[as4100-beam-member-moment-capacity]],
+[[as4100-combined-actions-section-capacity]], [[as4100-combined-actions-member-capacity]]
+and [[as4100-fatigue-design]] — with the asymmetric/composite section
 properties above as the geometric input.
 
 ![[dct-table-13.1-crane-runway-beams.png]]
@@ -92,12 +92,12 @@ None recorded.
 - [[asi-design-capacity-tables-vol1-open-sections]] — source register
   (Part 13).
 - [[as-4100-2020-steel-structures]] — AS 1418 crane-load pointer (Cl 3.2.1(b)).
-- [[steel-beam-section-moment-capacity]], [[steel-beam-member-moment-capacity]]
+- [[as4100-beam-section-moment-capacity]], [[as4100-beam-member-moment-capacity]]
   — bending capacity of the composite section once properties are taken
   from here.
-- [[steel-combined-actions-section-capacity]], [[steel-combined-actions-member-capacity]]
+- [[as4100-combined-actions-section-capacity]], [[as4100-combined-actions-member-capacity]]
   — vertical + lateral (surge) combined bending.
-- [[steel-fatigue-design]] — repeated crane-load fatigue assessment.
+- [[as4100-fatigue-design]] — repeated crane-load fatigue assessment.
 
 ## Sources
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c6377707450b45cf",
+        "id": "cd78cea9eb26c003",
         "type": "tabs",
         "children": [
           {
-            "id": "0e98f755008cb531",
+            "id": "a0909ee5fa47f902",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/2-concrete/components/aci318-anchoring-general-and-tensile-strength.md",
+                "file": "wiki/0-standards/as-3600-2018-concrete-structures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aci318-anchoring-general-and-tensile-strength"
+              "title": "as-3600-2018-concrete-structures"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:torsion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 710.8333740234375
   },
   "right": {
     "id": "625334f4a7fa7ccd",
@@ -188,52 +188,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e98f755008cb531",
+  "active": "a0909ee5fa47f902",
   "lastOpenFiles": [
-    "wiki/0-standards/aci-318m-19-building-code-concrete.md",
-    "wiki/2-concrete/assets/aci318-eq-27.4.6.2-total-test-load.png",
-    "wiki/2-concrete/assets/aci318-eq-25.4.8.1-pretensioned-strand-development.png",
-    "wiki/2-concrete/references/aci318-unit-equivalence-tables.md",
-    "wiki/2-concrete/references/aci318-steel-reinforcement-size-tables.md",
-    "wiki/2-concrete/references/aci318-steel-reinforcement-size-tables.md.tmp.10272.2745989f4f5e",
-    "wiki/2-concrete/components/aci318-nonlinear-response-history-analysis.md",
-    "wiki/2-concrete/components/aci318-nonlinear-response-history-analysis.md.tmp.10272.11742ca58391",
-    "wiki/2-concrete/components/aci318-strength-evaluation-of-existing-structures.md",
-    "wiki/2-concrete/components/aci318-strength-evaluation-of-existing-structures.md.tmp.10272.7f4e191e3665",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p594.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p593.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p592.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p591.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p590.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p589.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p588.png",
-    "wiki/2-concrete/assets/aci318-table-C-unit-equivalence-p587.png",
-    "wiki/2-concrete/components/aci318-concrete-acceptance-testing-and-inspection.md",
-    "wiki/2-concrete/components/aci318-concrete-acceptance-testing-and-inspection.md.tmp.10272.27be971543ed",
-    "wiki/2-concrete/components/aci318-reinforcement-anchors-embedments-precast-and-formwork-requirements.md",
-    "wiki/2-concrete/components/aci318-reinforcement-anchors-embedments-precast-and-formwork-requirements.md.tmp.10272.b21e02a5f67e",
-    "wiki/2-concrete/components/aci318-construction-documents-concrete-materials-and-production.md",
-    "wiki/2-concrete/components/aci318-construction-documents-concrete-materials-and-production.md.tmp.10272.97e5cf53fed6",
-    "wiki/2-concrete/components/sedXVjP3E",
-    "wiki/2-concrete/components/sedAtSAtp",
-    "wiki/2-concrete/components/sedKtrDTO",
-    "wiki/2-concrete/components/seddYFCKS",
-    "wiki/2-concrete/components/aci318-post-tensioning-anchorages-and-anchorage-zones.md",
-    "wiki/2-concrete/components/aci318-splices-bundled-bars-and-transverse-reinforcement.md",
-    "wiki/2-concrete/components/aci318-reinforcement-spacing-hooks-and-development.md",
-    "wiki/2-concrete/components/aci318-reinforcement-properties-durability-and-embedments.md",
-    "wiki/2-concrete/components/aci318-concrete-design-properties-and-durability.md",
-    "wiki/2-concrete/components/aci318-earthquake-diaphragms-foundations-and-non-sfrs-members.md",
-    "wiki/2-concrete/components/aci318-special-structural-walls.md",
-    "wiki/2-concrete/components/aci318-special-moment-frames.md",
-    "wiki/2-concrete/components/aci-sectional-strength-flexure-and-axial.md",
-    "wiki/2-concrete/components/aci318-two-way-slab-reinforcement-and-shear-detailing.md",
-    "wiki/2-concrete/components/aci318-two-way-slab-design-basis.md",
-    "wiki/2-concrete/components/aci318-one-way-slab-design.md",
-    "wiki/2-concrete/components/aci318-second-order-and-advanced-analysis.md",
-    "wiki/2-concrete/components/aci318-column-slenderness-and-moment-magnification.md",
-    "wiki/2-concrete/components/aci318-structural-analysis-methods.md",
-    "wiki/2-concrete/components/aci318-loads-and-load-combinations.md",
-    "wiki/2-concrete/components/aci318-serviceability-deflection-and-cracking.md"
+    "wiki/0-standards/components/sedQbrJ60",
+    "wiki/0-standards/components/sedjGO1fe",
+    "wiki/0-standards/components/sed5y0VNy",
+    "wiki/0-standards/components/as3600-fatigue-design-detailed-provisions.md",
+    "wiki/index.md",
+    "wiki/0-standards/components/as3774-silo-wall-pressures-initial-and-flow.md",
+    "wiki/0-standards/components/as3774-special-service-loads.md",
+    "wiki/0-standards/as-3774-1996-loads-on-bulk-solids-containers.md",
+    "wiki/0-standards/as-3600-2018-concrete-structures.md",
+    "wiki/0-standards/as-1170.2-2021-wind-actions.md",
+    "wiki/0-standards/components/as1170-2-regional-wind-speeds-and-site-multipliers.md",
+    "wiki/0-standards/assets/as3774-table-B3-coefficient-of-variation.png",
+    "wiki/0-standards/assets/as3774-table-B2-typical-bulk-solids-properties.png",
+    "wiki/0-standards/assets/as3774-table-B1-bulk-solids-material-characteristics.png",
+    "wiki/0-standards/assets/as3774-fig-C3-bulk-density-typical-plot.png",
+    "wiki/0-standards/assets/as3774-fig-C2-flow-function-typical-plot.png",
+    "wiki/0-standards/assets/as3774-fig-C1-yield-loci-determination.png",
+    "wiki/0-standards/assets/as3774-fig-B1-profile-sheeting-dimensions.png",
+    "wiki/0-standards/assets/as3774-fig-7.3-ground-supported-container-earthquake-pressures.png",
+    "wiki/0-standards/assets/as3774-fig-7.2-elevated-container-vibration-mode.png",
+    "wiki/0-standards/assets/as3774-fig-7.1-column-pitch-circle.png",
+    "wiki/0-standards/components/as3774-load-combinations-and-factors.md",
+    "wiki/0-standards/components/as3774-hopper-pressures-and-feeder-loads.md",
+    "wiki/0-standards/components/as3774-environmental-and-accidental-loads.md",
+    "wiki/0-standards/components/as3774-eccentric-filling-and-discharge-loads.md",
+    "wiki/0-standards/components/as3774-container-classification-and-bulk-solid-properties.md",
+    "wiki/0-standards/components/as4100-weld-design.md",
+    "wiki/0-standards/components/as4100-web-stiffeners.md",
+    "wiki/0-standards/components/as4100-web-shear-and-bearing.md",
+    "wiki/0-standards/components/as4100-tension-member-capacity.md",
+    "wiki/0-standards/components/as4100-structural-analysis-methods.md",
+    "wiki/0-standards/components/as4100-slip-factor-test-procedure.md",
+    "wiki/0-standards/components/as4100-member-effective-length-and-frame-buckling.md",
+    "wiki/0-standards/components/as4100-materials-and-design-strengths.md",
+    "wiki/0-standards/components/as4100-load-testing.md",
+    "wiki/0-standards/components/as4100-limit-state-design-basis.md",
+    "wiki/0-standards/components/as4100-lamellar-tearing-avoidance.md",
+    "wiki/0-standards/components/as4100-fire-design.md",
+    "sedQIfyS4",
+    "sedYkFbCm",
+    "wiki/0-standards/components/sedcUzv2W",
+    "wiki/0-standards/components/sedr47L8M",
+    "wiki/0-standards/components/sedw0Yl94",
+    "wiki/0-standards/components/sed7CYRKe",
+    "wiki/0-standards/components/sedTBipA2",
+    "wiki/0-standards/components/sedB73jyi"
   ]
 }

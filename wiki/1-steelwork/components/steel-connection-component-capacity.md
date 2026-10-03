@@ -16,7 +16,7 @@ reviewed: 2026-09-13
 > capacities for a **rectangular** connection component (cleat, gusset
 > plate, bracket) treated as a beam/column/tie of section `d_i × t_i`.
 > General component-capacity routing is at AS 4100 Cl 9.1.9, briefly noted
-> on [[steel-connection-design-requirements]]; this page derives the
+> on [[as4100-connection-design-requirements]]; this page derives the
 > working formulas.
 
 ## Summary
@@ -43,7 +43,7 @@ handbook derives:
 recommends the Kulak-based expression `φV_bs = φ[A_nt f_ui + 0.6 f_yi
 A_gv]`, `φ = 0.75` — which is **not the same formula** as AS 4100's own
 Cl 9.1.9(e) block-shear expression already on
-[[steel-connection-design-requirements]]. See Contradictions below.
+[[as4100-connection-design-requirements]]. See Contradictions below.
 
 ## Detail
 
@@ -184,7 +184,7 @@ this chapter of the source (worked examples resume in Ch 6, see
 ## Contradictions
 
 `[practice]` **Block shear formula divergence.** AS 4100 Cl 9.1.9(e)
-(already on [[steel-connection-design-requirements]]) gives:
+(already on [[as4100-connection-design-requirements]]) gives:
 
 `R_bs = 0.6 f_uc A_nv + k_bs f_uc A_nt ≤ 0.6 f_yc A_gv + k_bs f_uc A_nt`,
 `φ = 0.75`
@@ -219,16 +219,16 @@ gusset plate). Match the formula to the element being checked.
 
 ## Related
 
-- [[steel-connection-design-requirements]] — AS 4100 Cl 9.1.9 routing and
+- [[as4100-connection-design-requirements]] — AS 4100 Cl 9.1.9 routing and
   the current Cl 9.1.9(e) block-shear formula (see Contradictions above).
 - [[steel-coped-beam-capacity]] — block shear in a coped beam web
   (supported member), the companion case to this page's connection
   components.
-- [[steel-beam-section-moment-capacity]] — Cl 5.2 section moment capacity
+- [[as4100-beam-section-moment-capacity]] — Cl 5.2 section moment capacity
   general provisions.
-- [[steel-web-shear-and-bearing]] — Cl 5.11 shear capacity general
+- [[as4100-web-shear-and-bearing]] — Cl 5.11 shear capacity general
   provisions.
-- [[steel-tension-member-capacity]] — Cl 7.2 tension capacity general
+- [[as4100-tension-member-capacity]] — Cl 7.2 tension capacity general
   provisions.
 
 ## Sources

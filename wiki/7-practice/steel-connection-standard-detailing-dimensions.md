@@ -88,7 +88,7 @@ None recorded.
 
 ## Related
 
-- [[steel-bolt-and-pin-detailing]] — AS 4100 Cl 9.5 minimum/maximum pitch
+- [[as4100-bolt-and-pin-detailing]] — AS 4100 Cl 9.5 minimum/maximum pitch
   and edge distance limits these rationalised dimensions must still satisfy.
 - [[steel-connection-component-capacity]] — rectangular component sizing
   that uses these setback dimensions.

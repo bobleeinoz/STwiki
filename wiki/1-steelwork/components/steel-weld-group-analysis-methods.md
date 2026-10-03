@@ -17,7 +17,7 @@ reviewed: 2026-09-13
 > (Cl 9.8.3), properties of common weld-group shapes, closed-form design
 > capacities for two common cases, and two fully worked examples. This is
 > the derivation and design-aid material behind the brief clause summary on
-> [[steel-weld-design]] (Cl 9.7 "Assessment of a weld group").
+> [[as4100-weld-design]] (Cl 9.7 "Assessment of a weld group").
 
 ## Summary
 
@@ -177,6 +177,15 @@ vectorially.
 *Figure 33 — design forces per unit length resolved parallel to the weld
 group's x, y, z axes (ASI Handbook 1, 2007).*
 
+![[asi-h1-fig-34-fillet-weld-long-transverse-shear.png]]
+*Figure 34 — fillet weld subject to (a) longitudinal shear force `v*_z` and
+(b) transverse shear force `v*_y` (ASI Handbook 1, 2007).*
+
+`[practice]` For longitudinal shear only (Figure 34(a)) the design capacity
+per unit length is `φv_w = φf_uw t_t` with `v*_res = v*_z`. For transverse
+shear only (Figure 34(b)) the capacity is the same, and resolving onto the
+throat gives `v*_n = v*_vt = v*_y/√2`, `v*_vl = 0` (ASI Handbook 1, Ch 4).
+
 For the general fillet weld group of Figure 38 (combining Eqns 4.7.17,
 4.7.18, 4.8.1–4.8.4):
 
@@ -306,7 +315,7 @@ None recorded.
 
 ## Related
 
-- [[steel-weld-design]] — AS 4100 Cl 9.6–9.8 code clauses this page's
+- [[as4100-weld-design]] — AS 4100 Cl 9.6–9.8 code clauses this page's
   methods implement.
 - [[steel-bolt-group-analysis-methods]] — the directly analogous
   instantaneous-centre method for bolt groups; the same mathematics with
@@ -318,6 +327,6 @@ None recorded.
 
 - `raw/1-steelwork/ASI - Handbook 1 - Background and Theory - Design of
   Structural Steel Connections.pdf`, Ch 4.1–4.12 (pp. 52–76). Figures 28,
-  29, 30, 31, 32, 33, 35, 37, 39, 41, 42, 43, 44 and Table 25 (both parts)
-  and Tables 23–24 reproduced in `wiki/1-steelwork/assets/`. Figures 34,
+  29, 30, 31, 32, 33, 34, 35, 37, 39, 41, 42, 43, 44 and Table 25 (both parts)
+  and Tables 23–24 reproduced in `wiki/1-steelwork/assets/`. Figures
   36, 38, 40 and Tables 21–22 described in text but not reproduced.

@@ -51,10 +51,21 @@ pages are split into exactly two sub-folders:
 | `components/` | Every ordinary concept page: member types, design checks, procedures, tool behaviour, strength/serviceability methods — regardless of which source it was ingested from. This includes pages built around a secondary or foreign source (an ASI handbook, a manufacturer design aid, a foreign code such as ACI 318 kept for comparison per CLAUDE.md's standing exception) just as much as pages built around the discipline's own primary AS/NZS standard. **This is the default home for every new page.** |
 | `references/` | Narrow: only (a) a source summary/register page (section 3, "Source summary pages") when it is filed in this folder rather than `0-standards`, and (b) a page that is substantially a raw, wholesale transcription of a source's own lookup tables or data (e.g. full section-property or capacity tables copied from a design-aid catalogue) rather than an explained concept. If a page has explanatory prose around tagged clauses/provisions — even if every provision cited comes from a non-AS/NZS source — it is a component page, not a reference page. |
 
-`0-standards`, `7-practice` and `8-projects` do not use this split — they are
-already a single, homogeneous kind of page. `assets/` stays flat at the
-discipline-folder root (not split by components/references) since images are
-shared across both.
+`7-practice` and `8-projects` do not use this split — they are already a single,
+homogeneous kind of page. `assets/` stays flat at the discipline-folder root (not
+split by components/references) since images are shared across both.
+
+**`0-standards` exception — standard-derived concept pages.** `0-standards` holds
+the source register page for each standard at the folder root (e.g.
+`as-3600-2018-concrete-structures.md`, `aci-318m-19-building-code-concrete.md`).
+Concept pages built around a standard — currently the AS 3600:2018 (`as3600-*`),
+AS 4100:2020 (`as4100-*`), AS 3774:1996 (`as3774-*`), ACI 318M-19 (`aci318-*`) and AS/NZS 1170.2 (`as1170-2-*`) pages — are filed under
+`0-standards/components/`, with raw table/data transcriptions (e.g.
+`aci318-steel-reinforcement-size-tables`) under `0-standards/references/`. Their
+image assets live in `0-standards/assets/`, filename-prefixed by standard. The ACI
+318 pages and the AS 3600 pages (renamed `concrete-*` -> `as3600-*`) were relocated
+here from `2-concrete` on 2026-10-03; `2-concrete` is now empty. The AS 4100 pages (renamed `steel-*` -> `as4100-*`) and `as4100-*` assets were relocated from `1-steelwork` on 2026-10-03; pages sourced from the ASI handbook / design capacity tables (`steel-*`, `asi-*`) stay in `1-steelwork`. The AS 3774 pages and `as3774-*` assets were relocated from `6-mining-structures` on 2026-10-03 (no rename needed). Wikilinks and
+`![[...]]` embeds are path-agnostic, so they do not change when pages move.
 
 When creating a new page in a discipline folder, file it in `components/`
 by default. Only file it in `references/` if it fails the "explained concept"
